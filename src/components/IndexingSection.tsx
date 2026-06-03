@@ -23,10 +23,10 @@ const IndexingSection: React.FC = () => {
         {/* Conference Mode Banner */}
         <div className="text-center mb-8">
           <h2 className="text-blue-600 font-bold text-xl md:text-2xl mb-2">
-            ICICCDS 2027 Conference Information
+            ICICCDS 2027 will be organised in Hybrid Mode
           </h2>
           <p className="text-blue-600 font-semibold text-lg">
-            [ January 25-26, 2027 - Postgraduate Unit of Statistics and Informatics, Universidad Nacional del Altiplano de Puno – Perú ]
+            [ 25th January 2027 - Physical Mode || 26th January 2027 - Digital Mode ]
           </p>
         </div>
 

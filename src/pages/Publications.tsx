@@ -8,14 +8,14 @@ const Publications = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl font-bold mb-6 font-publico">Publications</h1>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="mb-6">All the accepted papers will be published in the proceedings of ICICCDS 2027 in Springer LNNS Series (Approved)
+            <p className="mb-6">All the accepted papers will be published in the proceedings of ICICCDS 2027.
             </p>
             <div className="flex justify-center">
-              <img 
+              {/* <img 
                 src="/partner/springer.png" 
                 alt="Academic Indexing Services - Web of Science, Scopus, IET Inspec, dblp" 
                 className="max-w-full h-auto rounded-lg shadow-md"
-              />
+              /> */}
             </div>
           </div>
         </div>
