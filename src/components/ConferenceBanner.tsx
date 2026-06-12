@@ -17,7 +17,7 @@ const ConferenceBanner = () => {
         {/* Left Logo - Conference Logo */}
         <div className="flex items-center gap-2 lg:flex-row flex-col">
           <img 
-            src="Logo.png" 
+            src="Logo.jpeg" 
             alt="ICICCDS Logo" 
             className="h-24 md:h-24 w-auto"
           />
@@ -45,7 +45,7 @@ const ConferenceBanner = () => {
         <div className='flex gap-7 flex-col items-center'>
         <div className=" p-2 rounded-lg shadow-sm">
           <img
-            src="/lovable-uploads/logo.png"
+            src="/lovable-uploads/logo.jpeg"
             alt="University of Essex"
             className="h-16 md:h-24 p-2 w-auto bg-white rounded-md"
           />
