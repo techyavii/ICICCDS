@@ -45,7 +45,7 @@ const ConferenceBanner = () => {
         <div className='flex gap-7 flex-col items-center'>
         <div className=" p-2 rounded-lg shadow-sm">
           <img
-            src="/lovable-uploads/logo.jpeg"
+            src="/lovable-uploads/logo.png"
             alt="University of Essex"
             className="h-16 md:h-24 p-2 w-auto bg-white rounded-md"
           />
