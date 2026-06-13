@@ -23,12 +23,14 @@ const Footer: React.FC = () => {
         <div className="flex items-center">
           <Mail className="mr-2" size={16} />
           <div className="font-publico text-sm">
-            <div>iciccds.congress@gmail.com</div>
+            <a href="mailto:iciccds.congress@gmail.com" className="hover:text-goldsmiths-yellow transition-colors">
+              iciccds.congress@gmail.com
+            </a>
           </div>
         </div>
     <div className="flex items-center">
     <MapPin className="mr-2" size={16} />
-    <span className="font-publico text-sm">University of Essex, Colchester, Essex, England, UK</span>
+    <span className="font-publico text-sm">Postgraduate Unit of Statistics and Informatics, Universidad Nacional del Altiplano de Puno – Perú</span>
     </div>
     </div>
     </div>
