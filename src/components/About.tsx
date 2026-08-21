@@ -26,6 +26,9 @@ const About: React.FC = () => {
           <Link to="https://cmt3.research.microsoft.com/ICICCDS2027" >
             <Button className="mt-4">Paper Submission Link</Button>
           </Link>
+          <p className="font-publico text-lg text-goldsmiths-text mt-6 leading-relaxed text-justify">
+            All the accepted and presented papers of ICICCDS 2027 will be published as a proceedings in Springer’s Studies in Autonomic, Data-driven and Industrial Computing (Scopus Indexed)
+          </p>
         </div>
         
       </div>
