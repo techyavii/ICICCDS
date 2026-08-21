@@ -26,23 +26,23 @@ const Registration: React.FC = () => {
                 <tbody>
                   <tr>
                     <td className="border border-gray-300 px-4 py-2">Research Student Author (Physical Mode)</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $300</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $330</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $400</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $430</td>
                   </tr>
                   <tr className="bg-[#f9f5e9]/50">
                     <td className="border border-gray-300 px-4 py-2">Research Student Author (Online Mode)</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $200</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $230</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $300</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $330</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 px-4 py-2">Standard Authors (Physical Mode)</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $350</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $380</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $450</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $480</td>
                   </tr>
                   <tr className="bg-[#f9f5e9]/50">
                     <td className="border border-gray-300 px-4 py-2">Standard Authors (Online Mode)</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $220</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $270</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $320</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $370</td>
                   </tr>
                 </tbody>
               </table>
@@ -50,7 +50,7 @@ const Registration: React.FC = () => {
             <div className="mt-4 text-sm text-gray-600">
               <p className="text-justify">*Standard Paper size – 8 pages. Over length of paper charges $30 per extra page.</p>
               <p className="text-justify">**Research Student Author - Those authors who are currently pursuing PHD, Masters degree in a research organisation/University comes under this category.</p>
-              <p className="text-justify">If you have any concerns regarding the registration policy or fees please feel free to write us at <a href="mailto:Support@icncda.co.uk" className="text-blue-600 hover:underline">Support@icncda.co.uk</a> or <a href="mailto:iciccds.congress@gmail.com " className="text-blue-600 hover:underline">iciccds.congress@gmail.com </a>.</p>
+              <p className="text-justify">If you have any concerns regarding the registration policy or fees please feel free to write us at <a href="mailto:Support@iciccds.com" className="text-blue-600 hover:underline">Support@iciccds.com</a> or <a href="mailto:iciccds.congress@gmail.com " className="text-blue-600 hover:underline">iciccds.congress@gmail.com </a>.</p>
             </div>
           </section>
           
@@ -68,13 +68,13 @@ const Registration: React.FC = () => {
                 <tbody>
                   <tr>
                     <td className="border border-gray-300 px-4 py-2">Research Student Participants</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $200</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $250</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $300</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $350</td>
                   </tr>
                   <tr className="bg-[#f9f5e9]/50">
                     <td className="border border-gray-300 px-4 py-2">Standard Participants</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $250</td>
-                    <td className="border border-gray-300 px-4 py-2">USD $300</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $350</td>
+                    <td className="border border-gray-300 px-4 py-2">USD $400</td>
                   </tr>
                 </tbody>
               </table>
@@ -125,7 +125,7 @@ const Registration: React.FC = () => {
             </ul>
             <div className="mt-4 text-sm text-gray-600">
               <p className="font-bold">Note:</p>
-              <p className="text-justify">The conference is non-residential and delegates are kindly requested to make their own arrangement for accommodation. If you have any query, please drop a mail to <a href="mailto:Support@icncda.co.uk" className="text-blue-600 hover:underline">Support@icncda.co.uk</a> or <a href="mailto:iciccds.congress@gmail.com " className="text-blue-600 hover:underline">iciccds.congress@gmail.com </a>. All participants and authors abide by the organization's guidelines.</p>
+              <p className="text-justify">The conference is non-residential and delegates are kindly requested to make their own arrangement for accommodation. If you have any query, please drop a mail to <a href="mailto:Support@iciccds.com" className="text-blue-600 hover:underline">Support@iciccds.com</a> or <a href="mailto:iciccds.congress@gmail.com " className="text-blue-600 hover:underline">iciccds.congress@gmail.com </a>. All participants and authors abide by the organization's guidelines.</p>
             </div>
           </section>
         </div>
