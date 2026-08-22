@@ -87,21 +87,21 @@ const Registration: React.FC = () => {
           <section className="mb-10">
             <h2 className="font-druk text-2xl text-[#001324] mb-4">Registration Options</h2>
             <div className="grid md:grid-cols-3 gap-6 mt-4">
-              {/* <Card>
+              <Card>
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   <CreditCard className="h-10 w-10 mb-4 text-[#001324]" />
                   <h3 className="font-bold text-lg mb-2">Registration via Stripe</h3>
-                  <Link to="https://buy.stripe.com/5kQ3cxdLs5gIggU6Xz0000j"><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Stripe</Button></Link>
+                  <Link to="https://buy.stripe.com/dRm3cxePw6kM5Cg0zb0000C"><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Stripe</Button></Link>
                 </CardContent>
-              </Card> */}
-              {/* <Card>
+              </Card>
+              <Card>
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   <CreditCard className="h-10 w-10 mb-4 text-[#001324]" />
                   <h3 className="font-bold text-lg mb-2">Registration via Razorpay</h3>
                   <p className="text-sm text-center text-gray-500 mb-2">(only for SAARC Nations)</p>
-                  <a href='https://rzp.io/rzp/xkZjXeMm'><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Razorpay</Button></a>
+                  <a href='https://rzp.io/rzp/yqG0xMWD'><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Razorpay</Button></a>
                 </CardContent>
-              </Card> */}
+              </Card>
               <Card>
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   <CreditCard className="h-10 w-10 mb-4 text-[#001324]" />
