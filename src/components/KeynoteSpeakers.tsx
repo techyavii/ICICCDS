@@ -31,7 +31,13 @@ const KeynoteSpeakers = () => {
       designation: "Professor",
       company: "Jindal School of Banking & Finance, O.P. Jindal Global University, India",
       profilePic: "keynotes/Shivani.jpeg"
-  }
+  },
+  {
+  name: "Sai Raghu Ram Gummadidala",
+  designation: "",
+  company: "iSolve Technology Inc.",
+  profilePic: "keynotes/sai-raghu-ram-gummadidala.jpeg"
+}
   ];
 
 
