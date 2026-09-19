@@ -2,36 +2,36 @@ import KeynoteSpeakerCard from "./KeynoteSpeakerCard";
 
 const KeynoteSpeakers = () => {
     const speakers = [
-  {
-    name: "Prof. Dhavalkumar (Dhaval) Thakker",
-    designation: "Professor of Artificial Intelligence and Internet of Things",
-    company: "University of Hull",
-    profilePic: "keynotes/dhaval_thakker.jpg",
-  },
-  {
-    name: "Prof. Hoang Nga Nguyen",
-    designation: "Associate Professor (Cybersecurity & Formal Methods)",
-    company: "Swansea University",
-    profilePic: "keynotes/hoang_nguyen.jpg",
-  },
+  // {
+  //   name: "Prof. Dhavalkumar (Dhaval) Thakker",
+  //   designation: "Professor of Artificial Intelligence and Internet of Things",
+  //   company: "University of Hull",
+  //   profilePic: "keynotes/dhaval_thakker.jpg",
+  // },
+  // {
+  //   name: "Prof. Hoang Nga Nguyen",
+  //   designation: "Associate Professor (Cybersecurity & Formal Methods)",
+  //   company: "Swansea University",
+  //   profilePic: "keynotes/hoang_nguyen.jpg",
+  // },
   // {
   //   name: "Prof. Nikhil Deshpande",
   //   designation: "Associate Professor of Robotics and AI",
   //   company: "University of Nottingham",
   //   profilePic: "keynotes/nikhil_deshpande.jpeg",
   // },
-   {
-    name: "Prof. Sanjaya Kumar Panda",
-    designation: "Assistant Professor (CSE)",
-    company: "NIT Warangal",
-    profilePic: "keynotes/sanjaya_panda.jpg"
-   },
-  {
-      name: "Prof. Shivani Bali",
-      designation: "Professor",
-      company: "Jindal School of Banking & Finance, O.P. Jindal Global University, India",
-      profilePic: "keynotes/Shivani.jpeg"
-  },
+  //  {
+  //   name: "Prof. Sanjaya Kumar Panda",
+  //   designation: "Assistant Professor (CSE)",
+  //   company: "NIT Warangal",
+  //   profilePic: "keynotes/sanjaya_panda.jpg"
+  //  },
+  // {
+  //     name: "Prof. Shivani Bali",
+  //     designation: "Professor",
+  //     company: "Jindal School of Banking & Finance, O.P. Jindal Global University, India",
+  //     profilePic: "keynotes/Shivani.jpeg"
+  // },
   {
   name: "Sai Raghu Ram Gummadidala",
   designation: "",

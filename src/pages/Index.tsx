@@ -27,8 +27,8 @@ const Index: React.FC = () => {
       <ConferenceHighlights />
       <ConferenceTracks />
       <ImportantDatesSection />
-      {/* <KeynoteSpeakers />
-      <AssociatedPartners/> */}
+      <KeynoteSpeakers />
+      {/* <AssociatedPartners/> */}
       <Footer />
     </div>
   );
