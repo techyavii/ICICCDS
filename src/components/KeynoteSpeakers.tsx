@@ -37,7 +37,13 @@ const KeynoteSpeakers = () => {
   designation: "",
   company: "iSolve Technology Inc.",
   profilePic: "keynotes/sai-raghu-ram-gummadidala.jpeg"
-}
+},
+{
+  name: "Gopichand Talluri",
+  designation: "",
+  company: "ANNSLO TECH INC",
+  profilePic: "keynotes/gopichand-talluri.jpeg",
+},
   ];
 
 
