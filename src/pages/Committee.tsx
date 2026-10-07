@@ -2,6 +2,20 @@ import React from 'react';
 import Footer from '@/components/Footer';
 
 const Committee = () => {
+  const patron = [
+    {
+      name: "Dr. Pragati Kumar",
+      affiliation: "Vice Chancellor and Prof., Shri Mata Vaishno Devi University, Katra"
+    }
+  ];
+
+  const coPatron = [
+    {
+      name: "Sh. Ajay Kumar Sharma (JKAS)",
+      affiliation: "Registrar, Shri Mata Vaishno Devi University, Katra"
+    }
+  ];
+
   const generalChairs = [
     {
       name: "Prof. Valdimiro Ibañez Quispe",
@@ -10,6 +24,21 @@ const Committee = () => {
     {
       name: "Dr. Ginu Rajan",
       affiliation: "Cardiff Metropolitan University, UK"
+    },
+    {
+      name: "Prof. Asok De",
+      affiliation: "Professor, School of ECE, Shri Mata Vaishno Devi University, Katra"
+    }
+  ];
+
+  const conferenceChairs = [
+    {
+      name: "Prof. V. K. Bhat",
+      affiliation: "Professor, School of Mathematics, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Prof. Zdzislaw Polkowski",
+      affiliation: "Professor, The Karkonosze University of Applied Sciences in Jelenia Góra, Poland"
     }
   ];
 
@@ -17,6 +46,29 @@ const Committee = () => {
     {
       name: "Prof. Fred Torres-Cruz",
       affiliation: "Universidad Nacional del Altiplano de Puno – Perú"
+    },
+    {
+      name: "Prof. Baijnath Kaushik",
+      affiliation: "Professor, School of CSE, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Prof. Kumud Ranjan Jha",
+      affiliation: "Dean (Faculty of Engineering) & Professor, School of ECE, SMVD University"
+    },
+    {
+      name: "Prof. Kavita Sharma",
+      affiliation: "Professor, Galgotias College of Engineering and Technology, India"
+    }
+  ];
+
+  const coOrganisingSecretaries = [
+    {
+      name: "Dr. Sunanda",
+      affiliation: "Associate Professor, Head, School of CSE, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Prof. Amit Kant Pandit",
+      affiliation: "Professor, School of ECE, Shri Mata Vaishno Devi University, Katra"
     }
   ];
 
@@ -36,6 +88,10 @@ const Committee = () => {
     {
       name: "Dr. Bernabé Canqui Flores",
       affiliation: "Universidad Nacional del Altiplano, Puno"
+    },
+    {
+      name: "Dr. Tina Tomazic",
+      affiliation: "University of Maribor, Slovenia, Europe"
     }
   ];
 
@@ -47,6 +103,22 @@ const Committee = () => {
     {
       name: "Dr. Leonel Coyla Idme",
       affiliation: "Universidad Nacional del Altiplano, Puno"
+    },
+    {
+      name: "Utku Kose",
+      affiliation: "Suleyman Demirel University, Isparta, Turkey"
+    },
+    {
+      name: "Dr. Vipul Sharma",
+      affiliation: "Assistant Professor, School of CSE, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Mr. Sanjay Kumar Sharma",
+      affiliation: "Assistant Professor, School of CSE, SMVD University, India"
+    },
+    {
+      name: "Dr. Rohit Tanwar",
+      affiliation: "Associate Professor, School of CSE, SMVD University, India"
     }
   ];
 
@@ -58,6 +130,48 @@ const Committee = () => {
     {
       name: "Mg. Leonid Alemán Gonzales",
       affiliation: "Universidad Nacional del Altiplano, Puno"
+    },
+    {
+      name: "Prof. Howard Chuan-Ming Liu",
+      affiliation: "National Taipei University of Technology, Taiwan"
+    },
+    {
+      name: "Dr. Gulshan Shrivastava",
+      affiliation: "Bennett University, Greater Noida, India"
+    },
+    {
+      name: "Dr. Deepak Gupta",
+      affiliation: "Maharaja Agrasen Institute of Technology, Delhi, India"
+    }
+  ];
+
+  const convener = [
+    {
+      name: "Prof. Baijnath Kaushik",
+      affiliation: "Professor, School of CSE, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Dr. Jafar A. Alzubi",
+      affiliation: "Al-Balqa Applied University, Salt, Jordan"
+    }
+  ];
+
+  const coConvener = [
+    {
+      name: "Dr. George A. Tsihrintzis",
+      affiliation: "University of Piraeus, Greece"
+    },
+    {
+      name: "Prof. Ananga Kumar Das",
+      affiliation: "School of Mathematics Dean, Research and Development, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Dr. Shashi Bhushan Kotwal",
+      affiliation: "Associate Professor, School of ECE, SMVD University, India"
+    },
+    {
+      name: "Mr. Swastik Gupta",
+      affiliation: "Assistant Professor, School of ECE, Shri Mata Vaishno Devi University, Katra"
     }
   ];
 
@@ -178,13 +292,33 @@ const Committee = () => {
 
           <div className="space-y-8">
             <CommitteeSection
+              title="Patron"
+              members={patron}
+            />
+
+            <CommitteeSection
+              title="Co-Patron"
+              members={coPatron}
+            />
+
+            <CommitteeSection
               title="General Chair(s)"
               members={generalChairs}
             />
 
             <CommitteeSection
+              title="Conference Chair"
+              members={conferenceChairs}
+            />
+
+            <CommitteeSection
               title="Organising Chair(s)"
               members={organisingChairs}
+            />
+
+            <CommitteeSection
+              title="Co-Organising Secretary"
+              members={coOrganisingSecretaries}
             />
 
             <CommitteeSection
@@ -200,6 +334,16 @@ const Committee = () => {
             <CommitteeSection
               title="Publicity Chair(s)"
               members={publicityChairs}
+            />
+
+            <CommitteeSection
+              title="Convener"
+              members={convener}
+            />
+
+            <CommitteeSection
+              title="Co-Convener"
+              members={coConvener}
             />
 
             <CommitteeSection
