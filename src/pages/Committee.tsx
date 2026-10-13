@@ -172,6 +172,14 @@ const Committee = () => {
     {
       name: "Mr. Swastik Gupta",
       affiliation: "Assistant Professor, School of ECE, Shri Mata Vaishno Devi University, Katra"
+    },
+    {
+      name: "Mr. Harvendra Singh",
+      affiliation: "Publix Super Markets Inc, USA"
+    },
+    {
+      name: "Navneet Kumar Tyagi",
+      affiliation: "Finance of America, USA"
     }
   ];
 
