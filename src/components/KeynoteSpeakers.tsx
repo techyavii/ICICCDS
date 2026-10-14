@@ -44,6 +44,12 @@ const KeynoteSpeakers = () => {
   company: "ANNSLO TECH INC",
   profilePic: "keynotes/gopichand-talluri.jpeg",
 },
+{
+  name: "Sai Arundeep Aetukuri",
+  designation: "Data Engineer",
+  company: "MHK Tech",
+  profilePic: "keynotes/sai-arundeep-aetukuri.jpeg",
+},
   ];
 
 
