@@ -11,11 +11,11 @@ import {
 } from "@/components/ui/table";
 
 const ImportantDatesSection: React.FC = () => {
-  const importantDates = [
-        { title: "Paper Submission Deadline", date: "05th November 2026" },
-    { title: "Acceptance Notification Due", date: "25th November 2026" },
+const importantDates = [
+        { title: "Paper Submission Deadline", date: "25th November 2026" },
+    { title: "Acceptance Notification Due", date: "10th December 2026" },
     { title: "Registration Due", date: "30th November 2026" },
-    { title: "Camera Ready Submission", date: "30th November 2026" },
+    { title: "Camera Ready Submission", date: "20th December 2026" },
     { title: "Conference Dates", date: "25th - 26th January 2027" }
   ];
 
