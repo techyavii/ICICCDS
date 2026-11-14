@@ -25,9 +25,14 @@ const Footer: React.FC = () => {
         <div className="flex items-center">
           <Mail className="mr-2" size={16} />
           <div className="font-publico text-sm">
-            <a href="mailto:iciccds.congress@gmail.com" className="hover:text-goldsmiths-yellow transition-colors">
-              iciccds.congress@gmail.com
-            </a>
+            <div className="flex flex-col">
+              <a href="mailto:Support@iciccds.com" className="hover:text-goldsmiths-yellow transition-colors">
+                Support@iciccds.com
+              </a>
+              <a href="mailto:iciccds.congress@gmail.com" className="hover:text-goldsmiths-yellow transition-colors">
+                iciccds.congress@gmail.com
+              </a>
+            </div>
           </div>
         </div>
     <div className="flex items-center">

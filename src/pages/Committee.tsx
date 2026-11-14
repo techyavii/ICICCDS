@@ -184,7 +184,7 @@ const Committee = () => {
   ];
 
   const advisoryCommittee = [
-    { name: "Manuel Ibarra Cabrera", affiliation: "Universidad Nacional Micaela Bastidas, Apurimac" },
+    { name: "Mahendran Vasagam", affiliation: "Slack (a Salesforce company), Dallas, Texas, United States" },
     { name: "Ecler Mamani Vilca", affiliation: "Universidad Nacional Micaela Bastidas, Apurimac" },
     { name: "Nuno M. Garcia", affiliation: "University of Beira Interior, Portugal" },
     { name: "Jaafar Alghazo", affiliation: "Virginia Military Institute, USA" },
@@ -206,6 +206,7 @@ const Committee = () => {
   ];
 
   const technicalProgramCommittee = [
+    { name: "Carlos Rompante Da Cunha", affiliation: "Administração e Turismo, Portugal" },
     { name: "Carlos Rompante Da Cunha", affiliation: "Administração e Turismo, Portugal" },
     { name: "Hongbo Du", affiliation: "University of Buckingham, UK" },
     { name: "Sara Paiva", affiliation: "Instituto Politécnico de Viana do Castelo, Portugal" },
